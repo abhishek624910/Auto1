@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Url passed]]>
+    </line>
+    <line>
+      <![CDATA[LoggedOut successFully]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successFully]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29408" started-at="2017-09-08T17:30:31Z" finished-at="2017-09-08T17:31:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29408" started-at="2017-09-08T17:30:31Z" finished-at="2017-09-08T17:31:00Z">
+      <class name="testNgScript.LoginTest">
+        <test-method status="PASS" signature="preTest()[pri:0, instance:testNgScript.LoginTest@18be83e4]" name="preTest" is-config="true" duration-ms="14165" started-at="2017-09-08T23:00:31Z" finished-at="2017-09-08T23:00:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Url passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:testNgScript.LoginTest@18be83e4]" name="f" duration-ms="9496" started-at="2017-09-08T23:00:45Z" finished-at="2017-09-08T23:00:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[LoggedOut successFully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="postTest()[pri:0, instance:testNgScript.LoginTest@18be83e4]" name="postTest" is-config="true" duration-ms="2064" started-at="2017-09-08T23:00:58Z" finished-at="2017-09-08T23:01:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed successFully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postTest -->
+      </class> <!-- testNgScript.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
